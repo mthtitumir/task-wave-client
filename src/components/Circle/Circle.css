@@ -1,0 +1,17 @@
+.circle-container {
+  width: 600px; /* Width of the big circle */
+  height: 600px; /* Height of the big circle */
+  border: 50px solid #fff;
+  border-radius: 50%; /* This makes the container a circle */
+  opacity: 0.2;
+  position: relative;
+}
+.small_circle {
+  position: absolute;
+  width: 200px; /* Width of the big circle */
+  height: 200px; /* Height of the big circle */
+  border: 50px solid #fff;
+  border-radius: 50%; /* This makes the container a circle */
+  opacity: 0.2;
+  transform: translateX(50%) translateY(50%);
+}
