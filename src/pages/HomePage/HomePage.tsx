@@ -1,7 +1,9 @@
+import HomeBanner from "../../components/HomeBanner";
+
 const HomePage = () => {
     return (
-        <div>
-            <h1>HomePage</h1>
+        <div className="mt-16 bg-black w-full">
+            <HomeBanner/>
         </div>
     );
 };

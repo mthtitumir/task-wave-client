@@ -1,8 +1,10 @@
-
 const Test = () => {
   return (
-    <div>Test</div>
-  )
-}
+    <div>
+      Test
+      <h1>Shakil</h1>
+    </div>
+  );
+};
 
-export default Test
+export default Test;
