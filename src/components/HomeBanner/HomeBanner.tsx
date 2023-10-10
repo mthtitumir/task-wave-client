@@ -1,4 +1,4 @@
-import Button from "./Button/Button";
+import Button from "../Button/Button";
 import "./HomeBanner.css";
 import { GiStarShuriken, GiRoundStar } from "react-icons/gi";
 const HomeBanner = () => {
