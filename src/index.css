@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @btn-primary{
+    @apply border-none mt-3 bg-gradient-to-r from-yellow-600 to-pink-500
+} */
+
+.text-gradient {
+    @apply btn border-none mt-3 bg-gradient-to-r from-yellow-600 to-pink-500 text-white
+}
+.th {
+    @apply font-normal underline decoration-dashed text-gray-500
+
+}
