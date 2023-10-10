@@ -26,7 +26,7 @@ const HomeBanner = () => {
             <span className="text-[#ff2d60] cursor-pointer">Sign In</span>
           </p>
         </div>
-        <div className="flex flex-col w-full lg:flex-row justify-center">
+        <div className="flex w-full lg:flex-row justify-center items-center">
           <div className="flex gap-5 border border-t-0 border-l-0 border-b-0 border-r-2 border-gray-400 px-5 mr-5">
             <div className="flex items-start">
               <img
