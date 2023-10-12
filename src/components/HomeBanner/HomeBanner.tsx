@@ -3,13 +3,13 @@ import "./HomeBanner.css";
 import { GiStarShuriken, GiRoundStar } from "react-icons/gi";
 const HomeBanner = () => {
   return (
-    <div className="h-fit py-10  ">
+    <div className="h-fit">
       <div className="flex items-center flex-col space-y-10 relative ">
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-8 left-96" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-12 right-96" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-28 left-[500px]" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-36 right-[500px]" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-96 right-[500px]" />
+        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-8 left-80" />
+        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-12 right-72" />
+        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-28 left-[400px]" />
+        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-36 right-[300px]" />
+        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-72 right-[400px]" />
         <div className="glow-bg-2"></div>
         <span className="text-4xl  text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] leading-10">
           <p>Simplified Productivity App</p> <p>To Track All Your Tasks</p>
@@ -18,7 +18,6 @@ const HomeBanner = () => {
           Task-Wave Is Hub For Managing Productivity Tasks <br /> Professionally
           And Efficiently
         </p>
-
         <div className="space-y-2">
           <Button>Get Started</Button>
           <p>

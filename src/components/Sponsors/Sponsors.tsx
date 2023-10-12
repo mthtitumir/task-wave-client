@@ -10,12 +10,17 @@ const Sponsors: React.FC = () => {
   ];
 
   return (
-    <div className=" c-auto mt-5">
-      <div className="text-5xl z-50 text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] mb-5">They Trust Us</div>
-      <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-5 lg:px-28 px-4 lg:py-6  py-4 content-center ">
+    <div className=" c-auto ">
+      <div className="text-5xl z-50 text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] mb-5">
+        They Trust Us
+      </div>
+      <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-5 ">
         {sponsors.map((sponsor) => (
-          <div key={sponsor} className="bg-gray-900 z-30 shadow-lg p-5 rounded-full mt-5 hover:-translate-y-3 transition-all">
-            <img src={sponsor}  alt="Sponsor" />
+          <div
+            key={sponsor}
+            className="bg-gray-900 z-30 shadow-lg p-5 rounded-full mt-5 hover:-translate-y-3 transition-all"
+          >
+            <img src={sponsor} alt="Sponsor" />
           </div>
         ))}
       </div>
