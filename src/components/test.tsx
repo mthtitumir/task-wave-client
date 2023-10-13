@@ -1,9 +1,9 @@
-
 const Test = () => {
   return (
-    <div>Test</div>
-    <h1>somaiya</h1>
-  )
-}
+    <div>Test
+      <h1>salman</h1>
+    </div>
+  );
+};
 
-export default Test
+export default Test;
