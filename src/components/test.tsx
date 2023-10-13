@@ -1,8 +1,7 @@
 const Test = () => {
   return (
-    <div>
-      Test
-      <h1>Shakil</h1>
+    <div>Test
+      <h1>salman</h1>
     </div>
   );
 };
