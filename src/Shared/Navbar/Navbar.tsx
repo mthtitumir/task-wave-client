@@ -11,9 +11,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="fixed top-0 left-0 flex justify-between w-full  items-center lg:px-28 px-4 lg:py-6  py-4 bg-black">
-      <div className="text-2xl lg:text-3xl font-serif order-2 lg:order-1 font-bold cursor-pointer">
+      <div className="text-2xl lg:text-3xl text-white font-serif order-2 lg:order-1 font-bold cursor-pointer">
         <Link to="/" className="sm:m-0 sm:p-0  ">
-          <img className="w-10 h-8" src="https://i.ibb.co/9wL3cKJ/20231007-214210.png" alt="" />
+          Task Wave
         </Link>
       </div>
       <div className="flex justify-between order-1 lg:order-2 items-center flex-row-reverse lg:flex-row">
