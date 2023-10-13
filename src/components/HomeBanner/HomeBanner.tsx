@@ -1,15 +1,20 @@
 import Button from "../Button/Button";
+import Scribfolio from "../Scribfolio/Scribfolio";
 import "./HomeBanner.css";
-import { GiStarShuriken, GiRoundStar } from "react-icons/gi";
+import { GiRoundStar } from "react-icons/gi";
+import { VscStarFull } from "react-icons/vsc";
 const HomeBanner = () => {
   return (
     <div className="h-fit">
       <div className="flex items-center flex-col space-y-10 relative ">
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-8 left-80" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-12 right-72" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-28 left-[400px]" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-36 right-[300px]" />
-        <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute bottom-72 right-[400px]" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute top-8 left-80" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute top-12 right-72" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-28 left-[400px]" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-36 right-[300px]" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-72 right-[400px]" />
+        <div className="animate-pulse absolute bottom-44 left-[100px]">
+          <Scribfolio />
+        </div>
         <div className="glow-bg-2"></div>
         <span className="text-4xl  text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] leading-10">
           <p>Simplified Productivity App</p> <p>To Track All Your Tasks</p>

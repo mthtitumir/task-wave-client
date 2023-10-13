@@ -10,8 +10,8 @@ const Sponsors: React.FC = () => {
   ];
 
   return (
-    <div className=" c-auto ">
-      <div className="text-5xl z-50 text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] mb-5">
+    <div className=" c-auto space-y-10">
+      <div className="text-5xl z-50 text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] mb-2">
         They Trust Us
       </div>
       <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-5 ">
