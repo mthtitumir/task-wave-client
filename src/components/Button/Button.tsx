@@ -12,7 +12,6 @@ const Button = ({ children }: buttonProps) => {
         <span></span>
         {children}
       </a>
-      
     </div>
   );
 };
