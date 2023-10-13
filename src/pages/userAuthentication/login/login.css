@@ -1,6 +1,7 @@
 .cards{
 position: relative;
 background: linear-gradient(0deg,#3498db,#FF56F6);
+padding: 16px;
 }
 
 .cards:before,
