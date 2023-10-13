@@ -11,7 +11,7 @@
   color: #ff2d60;
   font-size: 1rem;
   font-weight: bold;
-  
+  width: full;
   transition: 0.5s;
   overflow: hidden;
 }

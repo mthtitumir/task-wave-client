@@ -1,0 +1,35 @@
+.cards{
+position: relative;
+background: linear-gradient(0deg,#3498db,#FF56F6);
+}
+
+.cards:before,
+.cards:after
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg,#fb0094 ,#3f72af ,#f7d03c ,#2d8d84,#00ffff);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animat 20s linear infinite ;
+    background-size: 400%;
+    
+}
+.cards:after
+{
+    filter: blur(70px);
+}
+@keyframes animat {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 300% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
