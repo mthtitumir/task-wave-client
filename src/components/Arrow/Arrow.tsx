@@ -1,6 +1,5 @@
 import React from "react";
 
-// Define the gradient styles
 const gradientStyles: React.CSSProperties = {
   fill: "url(#myGradient)",
 };

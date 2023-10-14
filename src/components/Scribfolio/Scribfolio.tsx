@@ -10,8 +10,8 @@ const Scribfolio = () => {
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
-        width="300.000000pt"
-        height="139.000000pt"
+        width="250.000000pt"
+        height="100.000000pt"
         viewBox="0 0 300.000000 139.000000"
         preserveAspectRatio="xMidYMid meet"
         style={gradientStyles}

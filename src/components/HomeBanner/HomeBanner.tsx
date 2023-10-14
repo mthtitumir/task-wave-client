@@ -8,14 +8,14 @@ const HomeBanner = () => {
     <div className="h-fit">
       <div className="flex items-center flex-col space-y-10 relative ">
         <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute top-8 left-80" />
-        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute top-12 right-72" />
-        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-28 left-[400px]" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute top-0 lg:top-12 right-72" />
+        <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-60 lg:bottom-28 lg:left-[400px] left-72" />
         <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-36 right-[300px]" />
         <VscStarFull className="text-pink-600 text-4xl animate-pulse absolute bottom-72 right-[400px]" />
-        <div className="animate-pulse absolute bottom-44 left-[100px]">
+        <div className="animate-pulse absolute bottom-44 lg:block hidden left-[100px]">
           <Scribfolio />
         </div>
-        <div className="glow-bg-2"></div>
+        <div className="glow-bg-2 w-[300px] lg:[900px] "></div>
         <span className="text-4xl  text-center space-y-2 bg-gradient-to-r text-transparent bg-clip-text from-[#fcff2f] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#f9ff40] leading-10">
           <p>Simplified Productivity App</p> <p>To Track All Your Tasks</p>
         </span>

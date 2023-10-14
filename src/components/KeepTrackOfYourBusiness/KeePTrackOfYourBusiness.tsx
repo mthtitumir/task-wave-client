@@ -8,7 +8,7 @@ import Texts from "../Texts/Texts";
 const KeePTrackOfYourBusiness = () => {
   return (
     <div>
-      <div className="flex flex-row-reverse justify-between animate-pulse">
+      <div className="lg:flex hidden lg:flex-row-reverse flex-col justify-between animate-pulse">
         <div>
           <Scribfolio />
         </div>
@@ -18,7 +18,7 @@ const KeePTrackOfYourBusiness = () => {
       </div>
       <div className="flex items-center justify-center">
         <Texts
-          headerText="Your Ultimate"
+          headerText="Your Ultimate "
           styledTitle="Platform"
           peragraphText=""
         />
@@ -29,7 +29,7 @@ const KeePTrackOfYourBusiness = () => {
         </div>
         <div className="basis-1/2">
           <div className="flex flex-col gap-10">
-            <div className="flex items-start  gap-5 px-10 py-6 bg-gray-950 shadow-2xl rounded-2xl">
+            <div className="flex lg:flex-row flex-col items-start  gap-5 px-10 py-6 bg-gray-950 shadow-2xl rounded-2xl">
               <div className="bg-pink-950 p-5 rounded-full">
                 <PiUsersFourFill className="text-4xl " />
               </div>
@@ -41,7 +41,7 @@ const KeePTrackOfYourBusiness = () => {
                 />
               </div>
             </div>
-            <div className="flex items-start  gap-5 px-10 py-6 bg-gray-950 shadow-2xl rounded-2xl">
+            <div className="flex lg:flex-row flex-col items-start  gap-5 px-10 py-6 bg-gray-950 shadow-2xl rounded-2xl">
               <div className="bg-pink-950 p-5 rounded-full">
                 <MdManageHistory className="text-4xl " />
               </div>

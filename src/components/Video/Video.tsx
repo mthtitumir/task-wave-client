@@ -20,7 +20,7 @@ const Video = ({
             <source src={VideoSource} className="z-50" type="video/mp4" />
             {/* You can add additional source elements for different video formats */}
           </video>
-          <div className="glow-bg"></div>
+          <div className="glow-bg lg:w-[500px] lg:h-[500px] h-[450px] w-[350px]"></div>
         </div>
     </div>
   )

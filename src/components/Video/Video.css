@@ -15,8 +15,6 @@
       #f5b255,
       #e1cd60
     );
-    width: 500px;
-    height: 500px;
     filter: blur(200px);
     opacity: 0.7;
     position: absolute;
