@@ -6,8 +6,8 @@ const ManageTask = () => {
     <div className="flex justify-between items-center lg:flex-row flex-col-reverse gap-10 h-[800px] lg:h-[500px]">
       <div className="basis-1/2">
         <Texts
-          styledTitle="Tasks"
-          headerText="Manage Your  Online Easliy. "
+          headerText="Manage Your  Online "
+          styledTitle="Tasks."
           peragraphText="With task wave you can effortlessly streamline your workflow,
             prioritize assignments, and ensure nothing falls through the cracks.
             Our user-friendly interface allows you to create, edit, and

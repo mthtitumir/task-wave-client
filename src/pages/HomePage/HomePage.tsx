@@ -1,5 +1,6 @@
 import HomeBanner from "../../components/HomeBanner/HomeBanner";
 import KeepTrackOfTask from "../../components/KeepTrackOfTask/KeepTrackOfTask";
+import KeePTrackOfYourBusiness from "../../components/KeepTrackOfYourBusiness/KeePTrackOfYourBusiness";
 import ManageTask from "../../components/ManageTask/ManageTask";
 import Sponsors from "../../components/Sponsors/Sponsors";
 
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Sponsors />
       <ManageTask />
       <KeepTrackOfTask/>
+      <KeePTrackOfYourBusiness/>
     </div>
   );
 };
