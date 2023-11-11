@@ -1,12 +1,12 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 // import { BsCheckLg } from 
-import { BsCheckLg } from 'react-icons/bs'
+import { BsCheckLg, BsBox, BsSendPlus } from 'react-icons/bs'
 import { FaRegCommentDots } from 'react-icons/fa'
 
 const PricingPage = () => {
     return (
-        <div className='bg-black text-white'>
-            <h1 className="text-6xl text-center pt-10 my-3 bg-gradient-to-r text-transparent bg-clip-text from-[#f46b30] to-[#3977f3] font-bold font-primary">Supercharge with Start free</h1>
+        <div className='bg-black text-white container mx-auto'>
+            <h1 className="text-6xl text-center pt-32 my-3 bg-gradient-to-r text-transparent bg-clip-text from-[#f46b30] to-[#3977f3] font-bold font-primary">Supercharge with Start free</h1>
 
             {/* tabs */}
             <Tabs className='text-center w-[90%] mx-auto mt-10'>
@@ -427,7 +427,9 @@ const PricingPage = () => {
 
             {/* Team */}
             <h1 className='text-center mt-28 uppercase'>Trusted and loved by teams at:</h1>
-            <div className='sm:flex-wrap md:flex w-[97%] sm:mx-auto mt-16 pl-40 border-b border-gray-700 pb-20'>
+            <div className='sm:flex-wrap md:flex w-[97%] sm:mx-auto mt-16 pl-40 border-b border-gray-700 pb-20 relative'>
+                {/* <img className="text-pink-600 text-4xl animate-pulse absolute -top-52 -right-10 w-1/4" src="https://i.ibb.co/Wk40k75/box-removebg-preview.png" alt="" /> */}
+
                 <img src="https://i.ibb.co/B2JvNVX/60c9e142ef997f142b0220df-New-Wise-formerly-Transfer-Wise-logo.png" alt="" className=' px-10  py-6 border grayscale w-[160px]' />
                 <img src="https://i.ibb.co/z2DTCxw/booking-logo-white.png" alt="" className=' px-10  py-6 border grayscale w-[180px]' />
                 <img src="https://i.ibb.co/MV3sKbz/netflix-logo-white-png-removebg-preview.png" alt="" className=' px-10  py-6 border grayscale w-[160px]' />
@@ -436,8 +438,14 @@ const PricingPage = () => {
             </div>
 
             {/* get in touch */}
-            <h1 className='text-5xl font-bold text-center mt-24 mb-20 '>Got a question?<span className=' bg-gradient-to-r text-transparent bg-clip-text from-[#f46b30] to-[#3977f3] '> Get in touch.</span></h1>
-            <button className='text-gradient border-none flex items-center gap-3 text-base capitalize my-20'>Contact us</button>
+            <div className='relative'>
+                {/* <img src="https://i.ibb.co/1R28Hx8/images-removebg-preview.png" alt="" className='className="text-pink-600 text-4xl   absolute top-8 left-28 ' /> */}
+                {/* <GiStarShuriken className="text-pink-600 text-4xl animate-pulse absolute top-8 left-96" /> */}
+                <BsBox className="text-gray-800 rotate-90 text-9xl font-thin  absolute top-16 right-9 w-[400px]" />
+                <BsSendPlus className="text-gray-600 text-8xl   absolute left-28" />
+                <h1 className='text-5xl font-bold text-center mt-20 pt-10 mb-28 '>Got a question?<span className=' bg-gradient-to-r text-transparent bg-clip-text from-[#f46b30] to-[#3977f3] '> Get in touch.</span></h1>
+                <button className='text-gradient border-none flex items-center gap-3 text-base capitalize my-20'>Contact us</button>
+            </div>
 
         </div>
     );
