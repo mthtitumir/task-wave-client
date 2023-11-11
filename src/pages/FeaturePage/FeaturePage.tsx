@@ -1,7 +1,11 @@
+import FeatureBanner from "../../components/FeaturepageCompo/FeatureBanner";
+import FeatureNavber from "../../components/FeaturepageCompo/FeatureNavber";
 const FeaturePage = () => {
+   
     return (
-        <div>
-            <h1>FeaturePage</h1>
+        <div className="bg-black">
+            <FeatureBanner></FeatureBanner>
+            <FeatureNavber></FeatureNavber>          
         </div>
     );
 };
